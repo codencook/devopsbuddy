@@ -1,3 +1,13 @@
 coming soon...
 23 march 2017...
 hello...
+
+to solve thymleaf saxparser error of closing tag. following 2 steps are mandatory-
+
+1.in application properties add "spring.thymeleaf.mode=LEGACYHTML5"
+2.add dependency in pom.xml
+<dependency>
+   <groupId>net.sourceforge.nekohtml</groupId>
+   <artifactId>nekohtml</artifactId>
+   <version>1.9.21</version>
+</dependency>
