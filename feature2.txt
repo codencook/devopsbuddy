@@ -2,8 +2,9 @@ coming soon...
 23 march 2017...
 hello...
 
+****
 to solve thymleaf saxparser error of closing tag. following 2 steps are mandatory-
-
+****
 1.in application properties add "spring.thymeleaf.mode=LEGACYHTML5"
 2.add dependency in pom.xml
 <dependency>
@@ -11,3 +12,9 @@ to solve thymleaf saxparser error of closing tag. following 2 steps are mandator
    <artifactId>nekohtml</artifactId>
    <version>1.9.21</version>
 </dependency>
+
+****
+to solve feedback email work. below steps are required.
+****
+1. turn ON allow less secure apps access setting in gmail.
+2. turn OFF antivirus mail-shield and web-shield
