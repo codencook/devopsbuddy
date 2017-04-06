@@ -18,3 +18,8 @@ to solve feedback email work. below steps are required.
 ****
 1. turn ON allow less secure apps access setting in gmail.
 2. turn OFF antivirus mail-shield and web-shield
+
+****
+to make login page input text box appear, use proper closing tags for </label>
+****
+
